@@ -1,1 +1,32 @@
 /* Här skrivs all din CSS */
+#wrapper{
+    display: grid;
+    height: 100vh;
+    grid-template-areas: 
+    'hd hd hd'
+    'si ma ma'
+    'si ma ma'
+    'fo fo fo'
+
+
+
+}
+.header{
+    grid-area: hd;
+    background-color: blueviolet;
+}
+.aside{
+    grid-area: si;
+    background-color: coral;
+
+}
+.main{
+    grid-area: ma;
+    background-color: darkgreen;
+
+}
+.footer{
+    grid-area: fo;
+    background-color: darksalmon;
+
+}
