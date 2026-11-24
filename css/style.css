@@ -13,20 +13,20 @@
 }
 .header{
     grid-area: hd;
-    background-color: blueviolet;
+    background-color: rgba(244, 190, 50, 1);
 }
 .aside{
     grid-area: si;
-    background-color: coral;
+    background-color: rgba(244, 190, 50, 1);
 
 }
 .main{
     grid-area: ma;
-    background-color: darkgreen;
+    background-color: rgba(244, 190, 50, 1);
 
 }
 .footer{
     grid-area: fo;
-    background-color: darksalmon;
+    background-color: rgba(244, 190, 50, 1);
 
 }
